@@ -25,7 +25,36 @@ const products = {
     { id: 3, title: 'Vivo Phone 123', price: '৳ 850', img: '/path/to/vivo-product3.png', rating: 4.3, sales: 9 },
     { id: 4, title: 'Vivo Phone 456', price: '৳ 1100', img: '/path/to/vivo-product4.png', rating: 4.7, sales: 11 },
   ],
-  // Add other brands' products similarly
+  Oppo: [
+    { id: 1, title: 'Vivo Phone XYZ', price: '৳ 1000', img: '/path/to/vivo-product.png', rating: 4, sales: 10 },
+    { id: 2, title: 'Vivo Phone ABC', price: '৳ 900', img: '/path/to/vivo-product2.png', rating: 4.2, sales: 8 },
+    { id: 3, title: 'Vivo Phone 123', price: '৳ 850', img: '/path/to/vivo-product3.png', rating: 4.3, sales: 9 },
+    { id: 4, title: 'Vivo Phone 456', price: '৳ 1100', img: '/path/to/vivo-product4.png', rating: 4.7, sales: 11 },
+  ],
+  OnePlus: [
+    { id: 1, title: 'Vivo Phone XYZ', price: '৳ 1000', img: '/path/to/vivo-product.png', rating: 4, sales: 10 },
+    { id: 2, title: 'Vivo Phone ABC', price: '৳ 900', img: '/path/to/vivo-product2.png', rating: 4.2, sales: 8 },
+    { id: 3, title: 'Vivo Phone 123', price: '৳ 850', img: '/path/to/vivo-product3.png', rating: 4.3, sales: 9 },
+    { id: 4, title: 'Vivo Phone 456', price: '৳ 1100', img: '/path/to/vivo-product4.png', rating: 4.7, sales: 11 },
+  ],
+  Samsung: [
+    { id: 1, title: 'Vivo Phone XYZ', price: '৳ 1000', img: '/path/to/vivo-product.png', rating: 4, sales: 10 },
+    { id: 2, title: 'Vivo Phone ABC', price: '৳ 900', img: '/path/to/vivo-product2.png', rating: 4.2, sales: 8 },
+    { id: 3, title: 'Vivo Phone 123', price: '৳ 850', img: '/path/to/vivo-product3.png', rating: 4.3, sales: 9 },
+    { id: 4, title: 'Vivo Phone 456', price: '৳ 1100', img: '/path/to/vivo-product4.png', rating: 4.7, sales: 11 },
+  ],
+  Sony: [
+    { id: 1, title: 'Vivo Phone XYZ', price: '৳ 1000', img: '/path/to/vivo-product.png', rating: 4, sales: 10 },
+    { id: 2, title: 'Vivo Phone ABC', price: '৳ 900', img: '/path/to/vivo-product2.png', rating: 4.2, sales: 8 },
+    { id: 3, title: 'Vivo Phone 123', price: '৳ 850', img: '/path/to/vivo-product3.png', rating: 4.3, sales: 9 },
+    { id: 4, title: 'Vivo Phone 456', price: '৳ 1100', img: '/path/to/vivo-product4.png', rating: 4.7, sales: 11 },
+  ],
+  Xiaomi: [
+    { id: 1, title: 'Vivo Phone XYZ', price: '৳ 1000', img: '/path/to/vivo-product.png', rating: 4, sales: 10 },
+    { id: 2, title: 'Vivo Phone ABC', price: '৳ 900', img: '/path/to/vivo-product2.png', rating: 4.2, sales: 8 },
+    { id: 3, title: 'Vivo Phone 123', price: '৳ 850', img: '/path/to/vivo-product3.png', rating: 4.3, sales: 9 },
+    { id: 4, title: 'Vivo Phone 456', price: '৳ 1100', img: '/path/to/vivo-product4.png', rating: 4.7, sales: 11 },
+  ],
 };
 
 const ShopByBrands = () => {
