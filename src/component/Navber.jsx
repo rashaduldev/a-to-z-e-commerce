@@ -1,10 +1,10 @@
 const Navbar = () => {
   return (
-    <header className="bg-white shadow">
-      <div className="container mx-auto flex items-center justify-between p-4">
+    <header className="">
+      <div className="mx-[312px] flex items-center justify-between p-4">
         {/* Logo */}
         <div className="flex items-center">
-          <img src="/path-to-logo.png" alt="AtoZ Bazar" className="h-8 w-8 mr-2" />
+          <img src="https://i.ibb.co.com/5Tn8NK6/logo.png" alt="AtoZ Bazar" className="h-20 w-20 mr-2" />
           <span className="text-xl font-semibold text-orange-600">AtoZ Bazar</span>
         </div>
 

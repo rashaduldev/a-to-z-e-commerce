@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-400 py-10">
-      <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
+    <footer className="bg-gray-900 text-gray-400 py-10 ">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 container mx-auto p-4 mb-10">
         {/* Company Info */}
         <div>
           <h3 className="text-white text-xl font-semibold mb-4">AtoZ Bazar</h3>
