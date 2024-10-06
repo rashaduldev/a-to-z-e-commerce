@@ -112,9 +112,9 @@ const HotDeal = () => {
             </div>
           ))}
         </div>
-       <div className="flex items-center">
-       <img className=" py-10 h-[324px] w-full"  src="https://i.ibb.co.com/nmtGgvn/hotdeal1.jpg" alt="" />
-       <img className=" py-10 h-[324px] w-full" src="https://i.ibb.co.com/s3ts7Pp/hotdeal2.png" alt="" />
+       <div className="flex flex-col lg:flex-row items-center">
+       <img className=" lg:py-10 h-[324px] w-full"  src="https://i.ibb.co.com/nmtGgvn/hotdeal1.jpg" alt="" />
+       <img className=" lg:py-10 h-[324px] w-full" src="https://i.ibb.co.com/s3ts7Pp/hotdeal2.png" alt="" />
        </div>
       </div>
     );

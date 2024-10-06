@@ -58,3 +58,26 @@
     font-weight: 400;
     line-height: 24px;
 }
+.primaryButton{
+    font-size: 14px;
+    font-style: normal;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    line-height: 22px;
+    border: black;
+    border-radius: 8px;
+    border: 1px solid var(--Components-Paper-Outlined, rgba(145, 158, 171, 0.24));
+    background: var(--Grey-200, #F4F6F8);
+    }
+    .btn{
+        background-color: #FD5700;
+        color: white;
+    }
+    .srcc{
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+    }
