@@ -1,4 +1,5 @@
 import { CiSearch } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -7,7 +8,9 @@ const Navbar = () => {
        <div className="flex w-full md:w-[55%] items-center gap-6">
            {/* Logo */}
         <div className="flex items-center">
+          <Link to={'/'}>
           <img src="https://i.ibb.co.com/5Tn8NK6/logo.png" alt="AtoZ Bazar" className="h-20 w-20 mr-2" />
+          </Link>
         </div>
         <div className="w-full relative">
           <input className="w-full border px-[16px] py-2 rounded-l" type="text" placeholder="Seach iphone cover & accessories" />
